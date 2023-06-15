@@ -24,7 +24,7 @@ def list_directory_contents(directory):
             list_directory_contents(item_path)
 
 # Provide the starting directory here
-starting_directory = '/'
+starting_directory = '/ram/pckg'
 
 # Call the function with the starting directory
 list_directory_contents(starting_directory)
